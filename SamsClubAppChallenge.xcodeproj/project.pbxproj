@@ -1,0 +1,470 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		FE224F2D235520A30089D510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F2C235520A30089D510 /* AppDelegate.swift */; };
+		FE224F2F235520A30089D510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F2E235520A30089D510 /* ViewController.swift */; };
+		FE224F32235520A30089D510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224F30235520A30089D510 /* Main.storyboard */; };
+		FE224F34235520A70089D510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE224F33235520A70089D510 /* Assets.xcassets */; };
+		FE224F37235520A70089D510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224F35235520A70089D510 /* LaunchScreen.storyboard */; };
+		FE224F42235520A70089D510 /* SamsClubAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F41235520A70089D510 /* SamsClubAppChallengeTests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		FE224F3E235520A70089D510 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = FE224F21235520A30089D510 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = FE224F28235520A30089D510;
+			remoteInfo = SamsClubAppChallenge;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		FE224F29235520A30089D510 /* SamsClubAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsClubAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE224F2C235520A30089D510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		FE224F2E235520A30089D510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE224F31235520A30089D510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		FE224F33235520A70089D510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		FE224F36235520A70089D510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		FE224F38235520A70089D510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE224F3D235520A70089D510 /* SamsClubAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsClubAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		FE224F41235520A70089D510 /* SamsClubAppChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsClubAppChallengeTests.swift; sourceTree = "<group>"; };
+		FE224F43235520A70089D510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		FE224F26235520A30089D510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE224F3A235520A70089D510 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		FE224F20235520A30089D510 = {
+			isa = PBXGroup;
+			children = (
+				FE224F2B235520A30089D510 /* SamsClubAppChallenge */,
+				FE224F40235520A70089D510 /* SamsClubAppChallengeTests */,
+				FE224F2A235520A30089D510 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		FE224F2A235520A30089D510 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F29235520A30089D510 /* SamsClubAppChallenge.app */,
+				FE224F3D235520A70089D510 /* SamsClubAppChallengeTests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		FE224F2B235520A30089D510 /* SamsClubAppChallenge */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F2C235520A30089D510 /* AppDelegate.swift */,
+				FE224F2E235520A30089D510 /* ViewController.swift */,
+				FE224F30235520A30089D510 /* Main.storyboard */,
+				FE224F33235520A70089D510 /* Assets.xcassets */,
+				FE224F35235520A70089D510 /* LaunchScreen.storyboard */,
+				FE224F38235520A70089D510 /* Info.plist */,
+			);
+			path = SamsClubAppChallenge;
+			sourceTree = "<group>";
+		};
+		FE224F40235520A70089D510 /* SamsClubAppChallengeTests */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F41235520A70089D510 /* SamsClubAppChallengeTests.swift */,
+				FE224F43235520A70089D510 /* Info.plist */,
+			);
+			path = SamsClubAppChallengeTests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		FE224F28235520A30089D510 /* SamsClubAppChallenge */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE224F46235520A70089D510 /* Build configuration list for PBXNativeTarget "SamsClubAppChallenge" */;
+			buildPhases = (
+				FE224F25235520A30089D510 /* Sources */,
+				FE224F26235520A30089D510 /* Frameworks */,
+				FE224F27235520A30089D510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SamsClubAppChallenge;
+			productName = SamsClubAppChallenge;
+			productReference = FE224F29235520A30089D510 /* SamsClubAppChallenge.app */;
+			productType = "com.apple.product-type.application";
+		};
+		FE224F3C235520A70089D510 /* SamsClubAppChallengeTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FE224F49235520A70089D510 /* Build configuration list for PBXNativeTarget "SamsClubAppChallengeTests" */;
+			buildPhases = (
+				FE224F39235520A70089D510 /* Sources */,
+				FE224F3A235520A70089D510 /* Frameworks */,
+				FE224F3B235520A70089D510 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				FE224F3F235520A70089D510 /* PBXTargetDependency */,
+			);
+			name = SamsClubAppChallengeTests;
+			productName = SamsClubAppChallengeTests;
+			productReference = FE224F3D235520A70089D510 /* SamsClubAppChallengeTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		FE224F21235520A30089D510 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1020;
+				LastUpgradeCheck = 1020;
+				ORGANIZATIONNAME = ManiAnne;
+				TargetAttributes = {
+					FE224F28235520A30089D510 = {
+						CreatedOnToolsVersion = 10.2.1;
+					};
+					FE224F3C235520A70089D510 = {
+						CreatedOnToolsVersion = 10.2.1;
+						TestTargetID = FE224F28235520A30089D510;
+					};
+				};
+			};
+			buildConfigurationList = FE224F24235520A30089D510 /* Build configuration list for PBXProject "SamsClubAppChallenge" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = FE224F20235520A30089D510;
+			productRefGroup = FE224F2A235520A30089D510 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				FE224F28235520A30089D510 /* SamsClubAppChallenge */,
+				FE224F3C235520A70089D510 /* SamsClubAppChallengeTests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		FE224F27235520A30089D510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE224F37235520A70089D510 /* LaunchScreen.storyboard in Resources */,
+				FE224F34235520A70089D510 /* Assets.xcassets in Resources */,
+				FE224F32235520A30089D510 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE224F3B235520A70089D510 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		FE224F25235520A30089D510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE224F2F235520A30089D510 /* ViewController.swift in Sources */,
+				FE224F2D235520A30089D510 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FE224F39235520A70089D510 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FE224F42235520A70089D510 /* SamsClubAppChallengeTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		FE224F3F235520A70089D510 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = FE224F28235520A30089D510 /* SamsClubAppChallenge */;
+			targetProxy = FE224F3E235520A70089D510 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		FE224F30235520A30089D510 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE224F31235520A30089D510 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		FE224F35235520A70089D510 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				FE224F36235520A70089D510 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		FE224F44235520A70089D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		FE224F45235520A70089D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		FE224F47235520A70089D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRPP9BV3K9;
+				INFOPLIST_FILE = SamsClubAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManiAnne.SamsClubAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		FE224F48235520A70089D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRPP9BV3K9;
+				INFOPLIST_FILE = SamsClubAppChallenge/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManiAnne.SamsClubAppChallenge;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		FE224F4A235520A70089D510 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRPP9BV3K9;
+				INFOPLIST_FILE = SamsClubAppChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManiAnne.SamsClubAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsClubAppChallenge.app/SamsClubAppChallenge";
+			};
+			name = Debug;
+		};
+		FE224F4B235520A70089D510 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = RRPP9BV3K9;
+				INFOPLIST_FILE = SamsClubAppChallengeTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = ManiAnne.SamsClubAppChallengeTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SamsClubAppChallenge.app/SamsClubAppChallenge";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		FE224F24235520A30089D510 /* Build configuration list for PBXProject "SamsClubAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE224F44235520A70089D510 /* Debug */,
+				FE224F45235520A70089D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE224F46235520A70089D510 /* Build configuration list for PBXNativeTarget "SamsClubAppChallenge" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE224F47235520A70089D510 /* Debug */,
+				FE224F48235520A70089D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FE224F49235520A70089D510 /* Build configuration list for PBXNativeTarget "SamsClubAppChallengeTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				FE224F4A235520A70089D510 /* Debug */,
+				FE224F4B235520A70089D510 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = FE224F21235520A30089D510 /* Project object */;
+}
