@@ -62,12 +62,24 @@
                                                 <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="20"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" weight="medium" pointSize="25"/>
+                                                </variation>
                                             </label>
                                             <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" translatesAutoresizingMaskIntoConstraints="NO" id="QYL-Wt-Rsr">
                                                 <rect key="frame" x="82" y="44" width="250" height="250"/>
                                                 <constraints>
-                                                    <constraint firstAttribute="height" constant="250" id="uND-v7-F6K"/>
-                                                    <constraint firstAttribute="width" constant="250" id="wQA-Wi-qzs"/>
+                                                    <constraint firstAttribute="height" constant="250" id="uND-v7-F6K">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="250"/>
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                                    </constraint>
+                                                    <constraint firstAttribute="width" constant="250" id="wQA-Wi-qzs">
+                                                        <variation key="heightClass=regular-widthClass=compact" constant="250"/>
+                                                        <variation key="heightClass=regular-widthClass=regular" constant="300"/>
+                                                    </constraint>
                                                 </constraints>
                                             </imageView>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="xWc-U0-b6H">
@@ -78,6 +90,12 @@
                                                 <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="20"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" weight="semibold" pointSize="24"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="N/A" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="4wq-Op-m4J">
                                                 <rect key="frame" x="10" y="343" width="200" height="21"/>
@@ -87,6 +105,12 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <nil key="textColor"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="20"/>
+                                                </variation>
                                             </label>
                                             <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" usesAttributedText="YES" lineBreakMode="tailTruncation" numberOfLines="0" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="IRV-dp-w5w">
                                                 <rect key="frame" x="10" y="379" width="394" height="24"/>
@@ -121,6 +145,12 @@
                                                 <fontDescription key="fontDescription" type="system" pointSize="17"/>
                                                 <color key="textColor" systemColor="systemPinkColor" red="1" green="0.1764705882" blue="0.33333333329999998" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                                                 <nil key="highlightedColor"/>
+                                                <variation key="heightClass=regular-widthClass=compact">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                                </variation>
+                                                <variation key="heightClass=regular-widthClass=regular">
+                                                    <fontDescription key="fontDescription" type="system" pointSize="21"/>
+                                                </variation>
                                             </label>
                                         </subviews>
                                         <color key="backgroundColor" systemColor="systemBackgroundColor" cocoaTouchSystemColor="whiteColor"/>
@@ -131,18 +161,33 @@
                                             <constraint firstItem="4wq-Op-m4J" firstAttribute="top" secondItem="xWc-U0-b6H" secondAttribute="bottom" constant="10" id="IJd-ks-Kv8"/>
                                             <constraint firstItem="xWc-U0-b6H" firstAttribute="top" secondItem="QYL-Wt-Rsr" secondAttribute="bottom" constant="15" id="KpT-b8-KmX"/>
                                             <constraint firstItem="IRV-dp-w5w" firstAttribute="top" secondItem="4wq-Op-m4J" secondAttribute="bottom" constant="15" id="Oo0-3L-H0F"/>
-                                            <constraint firstAttribute="trailing" secondItem="uEv-Aj-pOt" secondAttribute="trailing" constant="5" id="TZN-NX-zT5"/>
-                                            <constraint firstItem="4wq-Op-m4J" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="UEd-1v-syw"/>
+                                            <constraint firstAttribute="trailing" secondItem="uEv-Aj-pOt" secondAttribute="trailing" constant="5" id="TZN-NX-zT5">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="5"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="15"/>
+                                            </constraint>
+                                            <constraint firstItem="4wq-Op-m4J" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="UEd-1v-syw">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="IRV-dp-w5w" secondAttribute="trailing" constant="10" id="UK3-gm-NGZ"/>
                                             <constraint firstItem="oGQ-Og-3ES" firstAttribute="top" secondItem="TP4-mK-TMh" secondAttribute="top" constant="10" id="UTa-Am-k8r"/>
                                             <constraint firstItem="IRV-dp-w5w" firstAttribute="top" secondItem="uEv-Aj-pOt" secondAttribute="bottom" constant="15" id="afC-EN-vCh"/>
                                             <constraint firstItem="QYL-Wt-Rsr" firstAttribute="top" secondItem="oGQ-Og-3ES" secondAttribute="bottom" constant="10" id="gi9-QW-Al6"/>
                                             <constraint firstItem="IhO-Ti-klI" firstAttribute="top" secondItem="IRV-dp-w5w" secondAttribute="bottom" constant="10" id="l0o-l7-Byh"/>
                                             <constraint firstItem="QYL-Wt-Rsr" firstAttribute="centerX" secondItem="TP4-mK-TMh" secondAttribute="centerX" id="pFf-vP-UzW"/>
-                                            <constraint firstItem="IhO-Ti-klI" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="ssL-Gp-Jld"/>
-                                            <constraint firstItem="xWc-U0-b6H" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="t0V-oL-yg9"/>
+                                            <constraint firstItem="IhO-Ti-klI" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="ssL-Gp-Jld">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                            </constraint>
+                                            <constraint firstItem="xWc-U0-b6H" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="t0V-oL-yg9">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                            </constraint>
                                             <constraint firstAttribute="trailing" secondItem="IhO-Ti-klI" secondAttribute="trailing" constant="10" id="tro-oD-HZi"/>
-                                            <constraint firstItem="IRV-dp-w5w" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="yeO-YO-yeT"/>
+                                            <constraint firstItem="IRV-dp-w5w" firstAttribute="leading" secondItem="TP4-mK-TMh" secondAttribute="leading" constant="10" id="yeO-YO-yeT">
+                                                <variation key="heightClass=regular-widthClass=compact" constant="10"/>
+                                                <variation key="heightClass=regular-widthClass=regular" constant="20"/>
+                                            </constraint>
                                         </constraints>
                                     </view>
                                 </subviews>

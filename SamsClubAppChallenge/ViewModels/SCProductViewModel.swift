@@ -52,7 +52,8 @@ class SCProductViewModel {
                                                           options: [.documentType: NSAttributedString.DocumentType.html,
                                                                     .characterEncoding: String.Encoding.utf8.rawValue],
                                                           documentAttributes: nil)
-            let font = UIFont.systemFont(ofSize: 15.0)
+            let fontSize: CGFloat = UIDevice.current.userInterfaceIdiom == .pad ? 20.0 : 15.0
+            let font = UIFont.systemFont(ofSize: fontSize)
             attributedString.addAttributes([NSAttributedString.Key.font : font],
                                      range: NSMakeRange(0, attributedString.length))
 
