@@ -37,20 +37,11 @@ class SCProductTableViewController: UIViewController {
         SCApiServiceManager.sharedManager.getProductsList(page: pageCount, maxCount: K.Products.maxProductCount) { (result) in
             DispatchQueue.main.async {
                 self.activityIndicatorView.hide()
-                
+                self.isFetchingProducts = false
+
                 switch result {
                 case .success(let productList) :
-                    if let productArray =  productList.products {
-                        let viewModelArray = productArray.map({ (product) -> SCProductViewModel in
-                            SCProductViewModel(product: product)
-                        })
-                        
-                        self.productViewModelArray.append(contentsOf: viewModelArray)
-                    }
-                    self.totalProductsCount = productList.totalProducts
-                    self.isFetchingProducts = false
-                    self.pageCount += 1
-                    self.productsTableView.reloadData()
+                    self.didReceivedProductList(productList: productList)
                     
                 case .failure(_):
                     if self.pageCount == 1 {
@@ -59,6 +50,19 @@ class SCProductTableViewController: UIViewController {
                 }
             }
         }
+    }
+    
+    func didReceivedProductList(productList: SCProductsList)  {
+        if let productArray =  productList.products {
+            let viewModelArray = productArray.map({ (product) -> SCProductViewModel in
+                SCProductViewModel(product: product)
+            })
+            
+            self.productViewModelArray.append(contentsOf: viewModelArray)
+        }
+        self.totalProductsCount = productList.totalProducts
+        self.pageCount += 1
+        self.productsTableView.reloadData()
     }
     
     func showAlert() {

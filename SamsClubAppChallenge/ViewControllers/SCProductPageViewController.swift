@@ -15,7 +15,8 @@ class SCProductPageViewController: UIPageViewController {
     var totalProductsCount = 0
     var pageCount = 0
     var startIndex = 0
-    
+    typealias fetchCompletionHandler = (SCProductViewModel?, Error?) -> ()
+
     convenience init(productViewModelArray: [SCProductViewModel], totalProductsCount: Int, pageCount: Int, startIndex: Int) {
         self.init(transitionStyle: .scroll, navigationOrientation: .horizontal, options: nil)
         
@@ -59,33 +60,37 @@ class SCProductPageViewController: UIPageViewController {
         return detailVC
     }
     
-    func fetchData(index: Int, completion: @escaping (SCProductViewModel?, Error?) -> ()) {
+    func fetchData(index: Int, completion: @escaping fetchCompletionHandler) {
         SCApiServiceManager.sharedManager.getProductsList(page: self.pageCount, maxCount: K.Products.maxProductCount) { (result) in
             
             DispatchQueue.main.async {
                 switch result {
                 case .success(let productList) :
-                    if let productArray =  productList.products {
-                        let viewModelArray = productArray.map({ (product) -> SCProductViewModel in
-                            SCProductViewModel(product: product)
-                        })
-                        
-                        self.productViewModelArray.append(contentsOf: viewModelArray)
-                    }
-                    
-                    self.pageCount += 1
-                    
-                    if index < self.productViewModelArray.count {
-                        let viewModel =  self.productViewModelArray[index]
-                        completion(viewModel, nil)
-                    } else {
-                        completion(nil, nil)
-                    }
+                    self.didReceivedProductList(productList: productList, index: index, completion: completion)
                     
                 case .failure(_):
-                        completion(nil, nil)
+                    completion(nil, nil)
                 }
             }
+        }
+    }
+    
+    func didReceivedProductList(productList: SCProductsList, index: Int, completion: @escaping fetchCompletionHandler)  {
+        if let productArray =  productList.products {
+            let viewModelArray = productArray.map({ (product) -> SCProductViewModel in
+                SCProductViewModel(product: product)
+            })
+            
+            self.productViewModelArray.append(contentsOf: viewModelArray)
+        }
+        
+        self.pageCount += 1
+        
+        if index < self.productViewModelArray.count {
+            let viewModel =  self.productViewModelArray[index]
+            completion(viewModel, nil)
+        } else {
+            completion(nil, nil)
         }
     }
 }
