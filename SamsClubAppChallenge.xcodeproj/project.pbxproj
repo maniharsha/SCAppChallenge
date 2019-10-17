@@ -7,12 +7,36 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		FE151DAF23574C42009DBE66 /* SCProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DAE23574C42009DBE66 /* SCProductDetailViewController.swift */; };
+		FE151DB023574C42009DBE66 /* SCProductDetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DAE23574C42009DBE66 /* SCProductDetailViewController.swift */; };
+		FE151DB223574C57009DBE66 /* SCProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DB123574C57009DBE66 /* SCProductPageViewController.swift */; };
+		FE151DB323574C57009DBE66 /* SCProductPageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DB123574C57009DBE66 /* SCProductPageViewController.swift */; };
+		FE151DBB2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DBA2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift */; };
+		FE151DBC2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DBA2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift */; };
+		FE151DC02357EE9D009DBE66 /* SCApiServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DBF2357EE9D009DBE66 /* SCApiServiceError.swift */; };
+		FE151DC12357EE9D009DBE66 /* SCApiServiceError.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DBF2357EE9D009DBE66 /* SCApiServiceError.swift */; };
+		FE151DC42357FF2D009DBE66 /* SCImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DC32357FF2D009DBE66 /* SCImageCache.swift */; };
+		FE151DC52357FF2D009DBE66 /* SCImageCache.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE151DC32357FF2D009DBE66 /* SCImageCache.swift */; };
 		FE224F2D235520A30089D510 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F2C235520A30089D510 /* AppDelegate.swift */; };
-		FE224F2F235520A30089D510 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F2E235520A30089D510 /* ViewController.swift */; };
+		FE224F2F235520A30089D510 /* SCProductTableViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F2E235520A30089D510 /* SCProductTableViewController.swift */; };
 		FE224F32235520A30089D510 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224F30235520A30089D510 /* Main.storyboard */; };
 		FE224F34235520A70089D510 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = FE224F33235520A70089D510 /* Assets.xcassets */; };
 		FE224F37235520A70089D510 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = FE224F35235520A70089D510 /* LaunchScreen.storyboard */; };
 		FE224F42235520A70089D510 /* SamsClubAppChallengeTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F41235520A70089D510 /* SamsClubAppChallengeTests.swift */; };
+		FE224F4E235521570089D510 /* SCProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F4D235521570089D510 /* SCProductsList.swift */; };
+		FE224F4F235521570089D510 /* SCProductsList.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F4D235521570089D510 /* SCProductsList.swift */; };
+		FE224F51235521EC0089D510 /* SCProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F50235521EC0089D510 /* SCProduct.swift */; };
+		FE224F52235521EC0089D510 /* SCProduct.swift in Sources */ = {isa = PBXBuildFile; fileRef = FE224F50235521EC0089D510 /* SCProduct.swift */; };
+		FE224F55235523BD0089D510 /* SCProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE224F54235523BD0089D510 /* SCProductTableViewCell.xib */; };
+		FE224F56235523BD0089D510 /* SCProductTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = FE224F54235523BD0089D510 /* SCProductTableViewCell.xib */; };
+		FEC7C03F23563230001739AE /* SCProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C03E23563230001739AE /* SCProductTableViewCell.swift */; };
+		FEC7C04023563230001739AE /* SCProductTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C03E23563230001739AE /* SCProductTableViewCell.swift */; };
+		FEC7C0432356346C001739AE /* SCProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C0422356346C001739AE /* SCProductViewModel.swift */; };
+		FEC7C0442356346C001739AE /* SCProductViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C0422356346C001739AE /* SCProductViewModel.swift */; };
+		FEC7C04A23566712001739AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C04923566711001739AE /* Constants.swift */; };
+		FEC7C04B23566712001739AE /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C04923566711001739AE /* Constants.swift */; };
+		FEC7C04D23567077001739AE /* SCApiServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C04C23567077001739AE /* SCApiServiceManager.swift */; };
+		FEC7C04E23567077001739AE /* SCApiServiceManager.swift in Sources */ = {isa = PBXBuildFile; fileRef = FEC7C04C23567077001739AE /* SCApiServiceManager.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -26,9 +50,14 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		FE151DAE23574C42009DBE66 /* SCProductDetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductDetailViewController.swift; sourceTree = "<group>"; };
+		FE151DB123574C57009DBE66 /* SCProductPageViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductPageViewController.swift; sourceTree = "<group>"; };
+		FE151DBA2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "UIActivityIndicator+Utility.swift"; sourceTree = "<group>"; };
+		FE151DBF2357EE9D009DBE66 /* SCApiServiceError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCApiServiceError.swift; sourceTree = "<group>"; };
+		FE151DC32357FF2D009DBE66 /* SCImageCache.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCImageCache.swift; sourceTree = "<group>"; };
 		FE224F29235520A30089D510 /* SamsClubAppChallenge.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SamsClubAppChallenge.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE224F2C235520A30089D510 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		FE224F2E235520A30089D510 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		FE224F2E235520A30089D510 /* SCProductTableViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductTableViewController.swift; sourceTree = "<group>"; };
 		FE224F31235520A30089D510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		FE224F33235520A70089D510 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		FE224F36235520A70089D510 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -36,6 +65,13 @@
 		FE224F3D235520A70089D510 /* SamsClubAppChallengeTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SamsClubAppChallengeTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		FE224F41235520A70089D510 /* SamsClubAppChallengeTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SamsClubAppChallengeTests.swift; sourceTree = "<group>"; };
 		FE224F43235520A70089D510 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FE224F4D235521570089D510 /* SCProductsList.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductsList.swift; sourceTree = "<group>"; };
+		FE224F50235521EC0089D510 /* SCProduct.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProduct.swift; sourceTree = "<group>"; };
+		FE224F54235523BD0089D510 /* SCProductTableViewCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = SCProductTableViewCell.xib; sourceTree = "<group>"; };
+		FEC7C03E23563230001739AE /* SCProductTableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductTableViewCell.swift; sourceTree = "<group>"; };
+		FEC7C0422356346C001739AE /* SCProductViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCProductViewModel.swift; sourceTree = "<group>"; };
+		FEC7C04923566711001739AE /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		FEC7C04C23567077001739AE /* SCApiServiceManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SCApiServiceManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +92,48 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		FE151DAC2356BFD5009DBE66 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F2E235520A30089D510 /* SCProductTableViewController.swift */,
+				FE151DAE23574C42009DBE66 /* SCProductDetailViewController.swift */,
+				FE151DB123574C57009DBE66 /* SCProductPageViewController.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		FE151DAD2356BFFC009DBE66 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7C04923566711001739AE /* Constants.swift */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		FE151DB92357E0C5009DBE66 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				FE151DBA2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		FE151DBE2357EE81009DBE66 /* Enums */ = {
+			isa = PBXGroup;
+			children = (
+				FE151DBF2357EE9D009DBE66 /* SCApiServiceError.swift */,
+			);
+			path = Enums;
+			sourceTree = "<group>";
+		};
+		FE151DC22357FB51009DBE66 /* Helpers */ = {
+			isa = PBXGroup;
+			children = (
+				FE151DC32357FF2D009DBE66 /* SCImageCache.swift */,
+			);
+			path = Helpers;
+			sourceTree = "<group>";
+		};
 		FE224F20235520A30089D510 = {
 			isa = PBXGroup;
 			children = (
@@ -77,8 +155,16 @@
 		FE224F2B235520A30089D510 /* SamsClubAppChallenge */ = {
 			isa = PBXGroup;
 			children = (
+				FE151DC22357FB51009DBE66 /* Helpers */,
+				FE151DBE2357EE81009DBE66 /* Enums */,
+				FE151DB92357E0C5009DBE66 /* Extensions */,
+				FE151DAD2356BFFC009DBE66 /* Constants */,
+				FE151DAC2356BFD5009DBE66 /* ViewControllers */,
+				FEC7C04823564848001739AE /* Managers */,
+				FEC7C0412356344E001739AE /* ViewModels */,
+				FE224F532355235C0089D510 /* Views */,
+				FE224F4C235520BD0089D510 /* Models */,
 				FE224F2C235520A30089D510 /* AppDelegate.swift */,
-				FE224F2E235520A30089D510 /* ViewController.swift */,
 				FE224F30235520A30089D510 /* Main.storyboard */,
 				FE224F33235520A70089D510 /* Assets.xcassets */,
 				FE224F35235520A70089D510 /* LaunchScreen.storyboard */,
@@ -94,6 +180,40 @@
 				FE224F43235520A70089D510 /* Info.plist */,
 			);
 			path = SamsClubAppChallengeTests;
+			sourceTree = "<group>";
+		};
+		FE224F4C235520BD0089D510 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F4D235521570089D510 /* SCProductsList.swift */,
+				FE224F50235521EC0089D510 /* SCProduct.swift */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		FE224F532355235C0089D510 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				FE224F54235523BD0089D510 /* SCProductTableViewCell.xib */,
+				FEC7C03E23563230001739AE /* SCProductTableViewCell.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		FEC7C0412356344E001739AE /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7C0422356346C001739AE /* SCProductViewModel.swift */,
+			);
+			path = ViewModels;
+			sourceTree = "<group>";
+		};
+		FEC7C04823564848001739AE /* Managers */ = {
+			isa = PBXGroup;
+			children = (
+				FEC7C04C23567077001739AE /* SCApiServiceManager.swift */,
+			);
+			path = Managers;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -178,6 +298,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE224F37235520A70089D510 /* LaunchScreen.storyboard in Resources */,
+				FE224F55235523BD0089D510 /* SCProductTableViewCell.xib in Resources */,
 				FE224F34235520A70089D510 /* Assets.xcassets in Resources */,
 				FE224F32235520A30089D510 /* Main.storyboard in Resources */,
 			);
@@ -187,6 +308,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				FE224F56235523BD0089D510 /* SCProductTableViewCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -197,8 +319,19 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				FE224F2F235520A30089D510 /* ViewController.swift in Sources */,
+				FEC7C04D23567077001739AE /* SCApiServiceManager.swift in Sources */,
+				FE224F4E235521570089D510 /* SCProductsList.swift in Sources */,
+				FE151DAF23574C42009DBE66 /* SCProductDetailViewController.swift in Sources */,
+				FEC7C03F23563230001739AE /* SCProductTableViewCell.swift in Sources */,
+				FE224F51235521EC0089D510 /* SCProduct.swift in Sources */,
+				FE224F2F235520A30089D510 /* SCProductTableViewController.swift in Sources */,
+				FEC7C0432356346C001739AE /* SCProductViewModel.swift in Sources */,
 				FE224F2D235520A30089D510 /* AppDelegate.swift in Sources */,
+				FE151DBB2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift in Sources */,
+				FE151DC02357EE9D009DBE66 /* SCApiServiceError.swift in Sources */,
+				FEC7C04A23566712001739AE /* Constants.swift in Sources */,
+				FE151DB223574C57009DBE66 /* SCProductPageViewController.swift in Sources */,
+				FE151DC42357FF2D009DBE66 /* SCImageCache.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -207,6 +340,17 @@
 			buildActionMask = 2147483647;
 			files = (
 				FE224F42235520A70089D510 /* SamsClubAppChallengeTests.swift in Sources */,
+				FE151DBC2357E3F9009DBE66 /* UIActivityIndicator+Utility.swift in Sources */,
+				FEC7C04023563230001739AE /* SCProductTableViewCell.swift in Sources */,
+				FE224F52235521EC0089D510 /* SCProduct.swift in Sources */,
+				FEC7C04E23567077001739AE /* SCApiServiceManager.swift in Sources */,
+				FEC7C0442356346C001739AE /* SCProductViewModel.swift in Sources */,
+				FEC7C04B23566712001739AE /* Constants.swift in Sources */,
+				FE151DC12357EE9D009DBE66 /* SCApiServiceError.swift in Sources */,
+				FE224F4F235521570089D510 /* SCProductsList.swift in Sources */,
+				FE151DB023574C42009DBE66 /* SCProductDetailViewController.swift in Sources */,
+				FE151DC52357FF2D009DBE66 /* SCImageCache.swift in Sources */,
+				FE151DB323574C57009DBE66 /* SCProductPageViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
